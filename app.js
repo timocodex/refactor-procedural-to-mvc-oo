@@ -6,12 +6,12 @@ let model = {
 }
 
 let controller ={
-    getEachDice : function(){
-      $('.die').each(model.getRandomNumber)
-    },
     addDice: function(){
       console.log('WAT')
       $('.dice').append('<div class="die">0</div>')
+    },
+    getEachDice : function(){
+      $('.die').each(model.getRandomNumber)
     }
 }
 
