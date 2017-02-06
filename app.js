@@ -18,7 +18,7 @@ let controller ={
 let view = {
   addnRoll: function(){
     $('#roller button.add').on('click',controller.addDice)
-    $('roller button.roll').on('click',controller.getEachDice)
+    $('#roller button.roll').on('click',controller.getEachDice)
   }
 }
 
